@@ -1,0 +1,15 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: flex;              /* make body a flex container */
+    justify-content: center;    /* center horizontally */
+    align-items: center;        /* center vertically */
+    height: 100vh;              /* full screen height */
+}
+
+.container {
+    background-color: white;
+}
+
+.inputContainer {
+    margin-top: 0.5rem;
+}
