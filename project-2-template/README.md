@@ -2,10 +2,11 @@ This is the project that we will be making:
 
 <img width="630" height="691" alt="image" src="https://github.com/user-attachments/assets/ab139d95-44ad-4646-a05f-1f65531e819b" />
 
-We first need to create the structure of our website 
-Navigate to index.html and we will add the text, buttons and images
-
 ## HTML Structure
+
+We first need to create the structure of our website 
+
+Navigate to index.html and we will add the text, buttons and images
 
 ```html
 <div class="container">
@@ -119,6 +120,7 @@ insultBtn.onclick = () => {
 ```
 
 To display a different message, change the index in the array (0, 1, 2, etc.) 
+
 Try changing the compliment text to "You make people smile" and the insult text to "I don't want to be your friend"
 
 ### Add functionality to make the buttons change the emotion of the face
