@@ -22,7 +22,7 @@ Navigate to index.html and we will add the text, buttons and images
 ## Styling 
 
 ### Style the body
-We need to style all the content to be centered and we can add a new font 
+We can style all the content to be centered and we can add a new font for the text
 
 ```css
 body {
@@ -31,5 +31,22 @@ body {
     justify-content: center; /* centers horizontally */
     align-items: center;     /* centers vertically */
     height: 100vh;           /* makes the body full viewport height */
+}
+```
+
+To make the text centered in your container div
+we use:
+
+```css
+text-align: center;
+```
+
+```diff
+- When we want to select a class, we should always start it with a .
+```
+
+```css
+.container {
+    text-align: center;
 }
 ```
