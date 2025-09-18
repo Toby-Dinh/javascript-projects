@@ -135,4 +135,32 @@ Write some code to make it so that when we press the insult button and the compl
 
 ---
 
+## Make the compliment and insult buttons loop through each message of the arrays
+
+### Create index variables to track which message to show next
+
+```js
+let complimentIndex = 0;
+let insultIndex = 0;
+```
+
+### Rewriting our button functions
+
+We will change the position in the array with our index variables like so:
+
+```js
+displayMessage.innerText = compliments[complimentIndex];
+displayMessage.innerText = insults[insultIndex];
+```
+
+Then, we will make the compliments loop so that each time the button is clicked, the next compliment is displayed. Once we reach the end of the list, it will loop back to the first compliment:
+
+```js
+complimentIndex++;
+if (complimentIndex >= compliments.length) {
+    complimentIndex = 0; // loop back to start
+}
+```
+
+We will do the same for the insult button so that each click shows the next insult in the list, and it also loops back to the first one when it reaches the end
 
