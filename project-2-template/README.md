@@ -1,4 +1,4 @@
-This is the project that we will be making:
+Make Me Happy Project
 
 <img width="630" height="691" alt="image" src="https://github.com/user-attachments/assets/ab139d95-44ad-4646-a05f-1f65531e819b" />
 
