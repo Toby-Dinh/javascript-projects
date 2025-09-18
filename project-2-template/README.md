@@ -133,3 +133,4 @@ faceImg.src = "picture.png";
 
 Write some code to make it so that when we press the insult button and the compliment button, it changes the emotion accordingly
 
+- [ ] Completed
